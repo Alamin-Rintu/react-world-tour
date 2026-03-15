@@ -1,0 +1,52 @@
+.country{
+    border: none;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.country:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.country img{
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.country h3{
+    margin: 10px 0;
+    color: #333;
+}
+
+.country p{
+    color: #666;
+}
+
+.country button{
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #6c5ce7;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.country button:hover{
+    background: #4834d4;
+}
+
+.country-visited{
+    background: #c7ec20;
+    border: 2px solid #22a6b3;
+}

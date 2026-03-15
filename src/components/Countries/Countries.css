@@ -1,0 +1,20 @@
+.countries{
+    width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+ol{
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f5f6fa;
+    border-radius: 10px;
+}
+
+ol li{
+    margin: 5px 0;
+    font-weight: 500;
+}
